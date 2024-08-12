@@ -47,7 +47,7 @@ file-allocation=trunc
 max-concurrent-downloads=6
 # 同一服务器连接数, 添加时可指定, 默认:1
 # 官方的aria2最高设置为16, 如果需要设置任意数值请重新编译aria2
-max-connection-per-server=256
+max-connection-per-server=16
 # 整体下载速度限制, 运行时可修改, 默认:0（不限制）
 #max-overall-download-limit=0
 # 单个任务下载速度限制, 默认:0（不限制）
