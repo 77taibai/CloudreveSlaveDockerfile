@@ -29,4 +29,6 @@ chmod +x /cloudreve/cloudreve
 
 echo "准备运行Cloudreve"
 
+cd /cloudreve
+
 ./cloudreve
